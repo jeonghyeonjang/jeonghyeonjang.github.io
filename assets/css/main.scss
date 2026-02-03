@@ -105,3 +105,22 @@ h3 {
     font-size: 28px;
   }
 }
+
+/* Topnavi */
+.topnav{
+  display:flex;
+  gap:18px;
+  justify-content:flex-end;
+  margin: 8px 0 18px 0;
+  font-size:14px;
+}
+
+.topnav a{
+  text-decoration:none;
+  opacity:0.75;
+}
+
+.topnav a:hover{
+  opacity:1;
+  text-decoration:underline;
+}
