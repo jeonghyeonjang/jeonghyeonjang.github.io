@@ -4,13 +4,6 @@ permalink: /
 title: ""
 ---
 
-<nav class="topnav">
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#education">Education</a>
-  <a href="#clinical">Clinical</a>
-</nav>
-
 <div class="hero">
   <img class="hero__photo" src="/assets/profile.jpg" alt="Profile photo">
 
