@@ -4,21 +4,24 @@ permalink: /
 title: ""
 ---
 
+<nav class="topnav">
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#clinical">Clinical</a>
+</nav>
+
 <div class="hero">
-  <div class="hero__photo">
-    <img src="/assets/profile.jpg" alt="Profile photo">
-  </div>
+  <img class="hero__photo" src="/assets/profile.jpg" alt="Profile photo">
 
   <div class="hero__meta">
     <div class="hero__name">Jeonghyeon Jang</div>
-    <div class="hero__line">
-      <a class="hero__email" href="mailto:YOUR_EMAIL_HERE">jjeonghyeon755@gmial.com</a>
-    </div>
     <div class="hero__tag">Researcher &amp; Korean Medicine Doctor</div>
+    <div class="hero__email">jjeonghyeon755[AT]gmail.com</div>
   </div>
 </div>
 
-<div class="section">
+<section id="about" class="section">
   <h2>About</h2>
   <p>
     I am a researcher in reinforcement learning and musculoskeletal control, as well as a licensed Korean medicine doctor.
@@ -33,9 +36,9 @@ title: ""
     <li>Musculoskeletal modeling and control</li>
     <li>Physics-based simulation of human movement</li>
   </ul>
-</div>
+</section>
 
-<div class="section">
+<section id="experience" class="section">
   <h2>Research Experience</h2>
 
   <div class="item">
@@ -49,9 +52,9 @@ title: ""
     <div class="item__meta">2025</div>
     <div class="item__desc">Reinforcement learning for musculoskeletal control in physics-based simulation</div>
   </div>
-</div>
+</section>
 
-<div class="section">
+<section id="education" class="section">
   <h2>Education</h2>
 
   <div class="item">
@@ -65,9 +68,9 @@ title: ""
     <div class="item__meta">2022</div>
     <div class="item__desc">Certificate in Sports Korean Medicine</div>
   </div>
-</div>
+</section>
 
-<div class="section">
+<section id="clinical" class="section">
   <h2>Clinical Experience</h2>
 
   <div class="item">
@@ -75,4 +78,4 @@ title: ""
     <div class="item__meta">2021 – Present</div>
     <div class="item__desc">Focus: Musculoskeletal disorders and movement-based rehabilitation</div>
   </div>
-</div>
+</section>
