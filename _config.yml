@@ -1,0 +1,13 @@
+title: Jeonghyeon Jang
+description: Researcher & Korean Medicine Doctor
+theme: minima
+
+header_pages:
+  - about.md
+  - research.md
+  - education.md
+  - clinical.md
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/jeonghyeonjang" }
