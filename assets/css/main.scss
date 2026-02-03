@@ -1,112 +1,18 @@
 ---
-# This file imports Minimal Mistakes theme styles
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "minimal-mistakes";
 
-/* ===== Custom overrides ===== */
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap');
+/* ============= Custom Style ============= */
 
 body {
-  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+               "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.8;
   font-size: 16px;
-  line-height: 1.75;
-  letter-spacing: -0.01em;
 }
 
-/* Narrower content width for cleaner look */
-.page__content {
-  max-width: 820px;
-}
-
-/* Section titles */
-h2 {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 34px 0 12px 0;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: 700;
-  margin: 18px 0 10px 0;
-}
-
-/* Hero header layout */
-.hero {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  margin: 8px 0 18px 0;
-}
-
-.hero__photo {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 16px;
-  display: block;
-}
-
-.hero__meta {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.hero__name {
-  font-size: 34px;
-  font-weight: 800;
-  line-height: 1.1;
-}
-
-.hero__tag {
-  font-size: 15px;
-  font-weight: 600;
-  opacity: 0.9;
-}
-
-.hero__email {
-  font-size: 14px;
-  opacity: 0.75;
-}
-
-/* Item list styling */
-.item {
-  margin: 14px 0 0 0;
-}
-
-.item__title {
-  font-weight: 700;
-}
-
-.item__meta {
-  font-size: 13px;
-  opacity: 0.75;
-  margin-top: 2px;
-}
-
-.item__desc {
-  margin-top: 4px;
-}
-
-/* Mobile */
-@media (max-width: 640px) {
-  .hero {
-    gap: 14px;
-  }
-  .hero__photo {
-    width: 96px;
-    height: 96px;
-  }
-  .hero__name {
-    font-size: 28px;
-  }
-}
-
-/* Topnavi */
 .topnav{
   display:flex;
   gap:18px;
@@ -123,4 +29,57 @@ h3 {
 .topnav a:hover{
   opacity:1;
   text-decoration:underline;
+}
+
+.hero{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin: 18px 0 28px 0;
+}
+
+.hero__photo{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:16px;
+  display:block;
+}
+
+.hero__meta{
+  line-height:1.25;
+}
+
+.hero__name{
+  font-size:32px;
+  font-weight:800;
+  margin:0 0 6px 0;
+}
+
+.hero__tag{
+  font-size:14px;
+  margin:0 0 6px 0;
+  opacity:0.9;
+}
+
+.hero__email{
+  font-size:14px;
+  opacity:0.75;
+}
+
+.section{
+  margin: 34px 0;
+}
+
+.item{
+  margin: 14px 0 18px 0;
+}
+
+.item__title{
+  font-weight:600;
+}
+
+.item__meta{
+  opacity:0.7;
+  font-size:14px;
 }
