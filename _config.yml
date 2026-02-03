@@ -7,10 +7,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Custom CSS 로드를 위한 설정
-head_scripts:
-  - /assets/css/custom.css
-
 # 상단 네비게이션 메뉴
 header_pages:
   - about.md
