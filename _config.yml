@@ -6,3 +6,13 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+header_pages:
+  - about.md
+  - research.md
+  - education.md
+  - clinical.md
