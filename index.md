@@ -29,7 +29,7 @@ title: ""
     <li>Musculoskeletal modeling and control</li>
     <li>Physics-based simulation of human movement</li>
   </ul>
-</section>
+</div>
 
 <div class="section" id="experience">
   <h2>Research Experience</h2>
@@ -45,7 +45,7 @@ title: ""
     <div class="item__meta">2025</div>
     <div class="item__desc">Reinforcement learning for musculoskeletal control in physics-based simulation</div>
   </div>
-</section>
+</div>
 
 <div class="section" id="education">
   <h2>Education</h2>
@@ -61,7 +61,7 @@ title: ""
     <div class="item__meta">2022</div>
     <div class="item__desc">Certificate in Sports Korean Medicine</div>
   </div>
-</section>
+</div>
 
 <div class="section" id="clinical">
   <h2>Clinical Experience</h2>
@@ -71,4 +71,4 @@ title: ""
     <div class="item__meta">2021 – Present</div>
     <div class="item__desc">Focus: Musculoskeletal disorders and movement-based rehabilitation</div>
   </div>
-</section>
+</div>
