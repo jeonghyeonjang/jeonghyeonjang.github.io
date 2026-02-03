@@ -6,10 +6,3 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-
-# 상단 네비게이션 메뉴
-header_pages:
-  - about.md
-  - research.md
-  - education.md
-  - clinical.md
