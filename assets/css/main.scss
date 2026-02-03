@@ -15,22 +15,6 @@ html, body {
   color: #111827;
 }
 
-/* ---- Top header (masthead) ---- */
-.masthead {
-  background: #111827; /* charcoal */
-  border-bottom: none;
-}
-.masthead a,
-.masthead__menu-item a,
-.greedy-nav a {
-  color: #ffffff !important;
-}
-.masthead a:hover,
-.masthead__menu-item a:hover,
-.greedy-nav a:hover {
-  opacity: 0.85;
-}
-
 /* ---- Navbar font size ---- */
 .masthead__menu-item {
   font-size: 18px;
@@ -52,10 +36,10 @@ html, body {
 }
 
 /* ✅ 사진: "지금 크기의 3/2 정도" = 기존 280px → 약 187px
-   보기 좋게 190px로 맞춤 */
+   보기 좋게 280px로 맞춤 */
 .hero__photo{
-  width: 190px;
-  height: 190px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   border-radius: 18px !important; /* 둥근 네모 유지 + 테마 덮어쓰기 방지 */
   display:block;
