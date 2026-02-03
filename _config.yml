@@ -1,6 +1,9 @@
 title: Jeonghyeon Jang
 description: Researcher & Korean Medicine Doctor
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 header_pages:
   - about.md
