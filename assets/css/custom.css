@@ -29,3 +29,80 @@ img {
 ul {
   margin-bottom: 1.2em;
 }
+
+
+
+/* --- Hero header (photo left, text right) --- */
+.hero{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin: 18px 0 28px 0;
+}
+
+.hero__photo{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:16px;   /* 둥근 네모 */
+  display:block;
+}
+
+.hero__text{
+  line-height:1.25;
+}
+
+.hero__name{
+  font-size:28px;
+  font-weight:700;      /* 볼드 */
+  margin:0 0 6px 0;
+}
+
+.hero__title{
+  font-size:14px;
+  margin:0 0 6px 0;
+}
+
+.hero__email{
+  font-size:14px;
+  opacity:0.85;
+}
+
+
+
+/* --- Hero header (photo left, text right) --- */
+.hero{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin: 18px 0 28px 0;
+}
+
+.hero__photo{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:16px;   /* 둥근 네모 */
+  display:block;
+}
+
+.hero__text{
+  line-height:1.25;
+}
+
+.hero__name{
+  font-size:28px;
+  font-weight:700;      /* 볼드 */
+  margin:0 0 6px 0;
+}
+
+.hero__title{
+  font-size:14px;
+  margin:0 0 6px 0;
+}
+
+.hero__email{
+  font-size:14px;
+  opacity:0.85;
+}
+
