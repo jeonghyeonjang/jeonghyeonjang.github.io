@@ -10,7 +10,7 @@ title: ""
   <div class="hero__meta">
     <div class="hero__name">Jeonghyeon Jang</div>
     <div class="hero__tag">Researcher &amp; Korean Medicine Doctor</div>
-    <div class="hero__email">jjeonghyeon755[AT]gmail.com</div>
+    <div class="hero__email">jjeonghyeon755 [AT] gmail.com</div>
   </div>
 </div>
 
@@ -40,7 +40,7 @@ title: ""
     <div class="item__title">Research Intern, KAIST RISE Lab</div>
     <div class="item__meta">June 2025 – Present</div>
     <div class="item__desc">
-      Conducting research on reinforcement learning for musculoskeletal control, focusing on learning-based control of biomechanical models and physics-based simulation.<br>
+      Research on reinforcement learning for musculoskeletal control, focusing on learning-based control of biomechanical models and physics-based simulation.<br>
       Advisor: Kimin Lee
     </div>
   </div>
