@@ -4,7 +4,7 @@
 
 @import "minimal-mistakes";
 
-/* ---- Google Font: Noto Sans (가장 단순하게 CSS @import) ---- */
+/* ---- Google Font: Noto Sans ---- */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap");
 
 /* ---- Global typography ---- */
@@ -17,7 +17,7 @@ html, body {
 
 /* ---- Top header (masthead) ---- */
 .masthead {
-  background: #111827; /* 차콜 */
+  background: #111827; /* charcoal */
   border-bottom: none;
 }
 .masthead a,
@@ -31,32 +31,39 @@ html, body {
   opacity: 0.85;
 }
 
-/* ---- Navbar font size (메인 메뉴 크게) ---- */
+/* ---- Navbar font size ---- */
 .masthead__menu-item {
-  font-size: 18px;    /* 메뉴 키우기 */
+  font-size: 18px;
   font-weight: 600;
 }
 .greedy-nav .visible-links a {
   padding: 0.9rem 0.9rem;
 }
 
-/* ---- Page title 숨김(원하면) ---- */
+/* ---- Page title hide ---- */
 .page__title { display: none; }
 
 /* ---- Hero (photo left, text right) ---- */
 .hero{
   display:flex;
   align-items:center;
-  gap:28px;
+  gap:24px;
   margin: 18px 0 34px 0;
 }
 
+/* ✅ 사진: "지금 크기의 3/2 정도" = 기존 280px → 약 187px
+   보기 좋게 190px로 맞춤 */
 .hero__photo{
-  width: 280px;      /* 사진 2배 */
-  height: 280px;
+  width: 190px;
+  height: 190px;
   object-fit: cover;
-  border-radius: 20px; /* 둥근 네모 */
+  border-radius: 18px !important; /* 둥근 네모 유지 + 테마 덮어쓰기 방지 */
   display:block;
+}
+
+/* 혹시 테마가 img 스타일을 강제로 바꾸는 경우를 대비(보험) */
+.hero img.hero__photo{
+  border-radius: 18px !important;
 }
 
 .hero__name{
@@ -93,7 +100,7 @@ html, body {
 
 .section h3{
   font-size: 16px;
-  font-weight: 500;   /* Research Interests 볼드 해제 느낌 */
+  font-weight: 500; /* Research Interests 덜 볼드 */
   margin: 18px 0 10px 0;
 }
 
