@@ -14,7 +14,7 @@ title: ""
   </div>
 </div>
 
-<section id="about" class="section">
+<div class="section" id="about">
   <h2>About</h2>
   <p>
     I am a researcher in reinforcement learning and musculoskeletal control, as well as a licensed Korean medicine doctor.
@@ -31,7 +31,7 @@ title: ""
   </ul>
 </section>
 
-<section id="experience" class="section">
+<div class="section" id="experience">
   <h2>Research Experience</h2>
 
   <div class="item">
@@ -47,7 +47,7 @@ title: ""
   </div>
 </section>
 
-<section id="education" class="section">
+<div class="section" id="education">
   <h2>Education</h2>
 
   <div class="item">
@@ -63,7 +63,7 @@ title: ""
   </div>
 </section>
 
-<section id="clinical" class="section">
+<div class="section" id="clinical">
   <h2>Clinical Experience</h2>
 
   <div class="item">
