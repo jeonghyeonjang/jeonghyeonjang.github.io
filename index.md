@@ -10,7 +10,7 @@ title: ""
   <div class="hero__meta">
     <div class="hero__name">Jeonghyeon Jang</div>
     <div class="hero__tag">Researcher &amp; Korean Medicine Doctor</div>
-    <div class="hero__email">jjeonghyeon755 [AT] gmail.com</div>
+    <div class="hero__email">jjeonghyeon755@gmail.com</div>
   </div>
 </div>
 
